@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV — Jonathan Vinton</title>
+    <meta name="description" content="Curriculum vitae of Jonathan Vinton: Program & Systems Lead in international education, mechanical engineer, now software engineering student at Epitech Paris.">
+    <link rel="icon" href="./favicon.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Shared Materialize copy from the site root, then this page's stylesheet (which imports ../style.css) -->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="../js/materialize.min.js" defer></script>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="site-nav">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="../index.html" class="brand-logo left hide-on-med-and-down"><img src="./my_profile.jpg" alt="" class="brand-photo">Jonathan Vinton</a>
+                        <a href="../index.html" class="brand-logo center hide-on-large-only">Jonathan Vinton</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger" aria-label="Open menu"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact" class="modal-trigger">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-nav">
+            <li class="sidenav-head">
+                <span class="sidenav-brand">Jonathan Vinton</span>
+                <a href="#!" class="sidenav-close" aria-label="Close menu"><i class="material-icons">close</i></a>
+            </li>
+            <li><a href="../index.html">← Portfolio</a></li>
+            <li><a class="sidenav-close" href="#experience">Experience</a></li>
+            <li><a class="sidenav-close" href="#education">Education</a></li>
+            <li><a class="sidenav-close" href="#skills">Skills</a></li>
+            <li><a class="sidenav-close" href="#awards">Awards</a></li>
+            <li><a class="sidenav-close" href="#languages">Languages</a></li>
+            <li><a class="sidenav-close" href="#projects">Projects</a></li>
+            <li><a class="sidenav-close modal-trigger" href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Contact modal -->
+        <div id="contact" class="modal">
+            <div class="modal-content">
+                <p class="eyebrow">Contact</p>
+                <h2>Let's talk</h2>
+                <ul class="facts">
+                    <li><i class="material-icons">email</i><a href="mailto:jonathan.developer26@gmail.com">jonathan.developer26@gmail.com</a></li>
+                    <li><i class="material-icons">phone</i><a href="tel:+17135018206">+1 (713) 501-8206</a></li>
+                    <li><i class="material-icons">place</i><span>Chevilly-Larue, France</span></li>
+                </ul>
+                <form action="https://formspree.io/f/mqpeqvyv" method="post">
+                    <div class="row">
+                        <div class="input-field col s12 m6">
+                            <input id="fullname" name="fullname" type="text" maxlength="60" required>
+                            <label for="fullname">Full name</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input id="email" name="email" type="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="phone_from" name="phone_from" type="tel">
+                            <label for="phone_from">Phone (optional)</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <textarea id="user_message" name="user_message" class="materialize-textarea" required></textarea>
+                            <label for="user_message">Your message</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary waves-effect waves-light"><i class="material-icons left">send</i>Send message</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect btn-flat">Close</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-head">
+            <div class="container">
+                <p class="eyebrow">Curriculum vitae</p>
+                <h1>Jonathan Vinton</h1>
+                <p class="lead">Program &amp; Systems Lead in international education and operations · mechanical engineer · now a software engineering student at Epitech Paris.</p>
+                <div class="hero-actions">
+                    <a href="./Jonathan_Vinton_Resume.pdf" download class="btn btn-primary waves-effect waves-light"><i class="material-icons left">download</i>Download PDF</a>
+                    <a href="#contact" class="btn btn-outline waves-effect modal-trigger"><i class="material-icons left">mail_outline</i>Contact</a>
+                </div>
+                <ul class="social">
+                    <li><a href="mailto:jonathan.developer26@gmail.com" aria-label="Email Jonathan"><i class="material-icons">email</i></a></li>
+                    <li><a href="tel:+17135018206" aria-label="Call Jonathan"><i class="material-icons">phone</i></a></li>
+                    <li><a href="https://github.com/jonathandeveloper26-bit" aria-label="GitHub profile"><img src="../github_mark.png" alt=""></a></li>
+                    <li><a href="https://linkedin.com/in/jonathan-v-0392b692" aria-label="LinkedIn profile"><img src="../linkedin-svgrepo-com.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <!-- Main column -->
+                <div class="col s12 m8">
+                    <section class="panel" id="experience">
+                        <h2>Experience</h2>
+                        <article class="cv-item">
+                            <p class="entry-when">October 2021 – present</p>
+                            <h3>Village Schools International</h3>
+                            <p class="role">Program &amp; Systems Lead</p>
+                            <p>Led cross-country program operations across 6 national organizations supporting 93 schools, 900+ staff and 19,000+ students. Designed and implemented integrated financial, HR and academic data systems to improve reporting accuracy, audit readiness and organizational decision-making. <a href="#projects">See projects below.</a></p>
+                        </article>
+                        <article class="cv-item">
+                            <p class="entry-when">August 2019 – September 2021</p>
+                            <h3>U.S. Department of Defense — PSNS &amp; CFAY</h3>
+                            <p class="role">Mechanical Engineer</p>
+                            <p>Supported mission-critical mechanical systems at active naval installations. Coordinated across departments to maintain uninterrupted operations in safety-critical, high-risk environments.</p>
+                        </article>
+                        <article class="cv-item">
+                            <p class="entry-when">September 2018 – April 2019</p>
+                            <h3>PuppTech, Denver</h3>
+                            <p class="role">Mechanical Design Engineer</p>
+                            <p>Conducted iterative mechanical design of protective casings for sensitive electronics. Coordinated with electrical engineers and manufacturing partners to ensure environmental integrity and production feasibility.</p>
+                        </article>
+                    </section>
+
+                    <section class="panel" id="education">
+                        <h2>Education</h2>
+                        <article class="cv-item">
+                            <p class="entry-when">September 2026 – present</p>
+                            <h3>Epitech, Paris</h3>
+                            <p class="role">Bac+3 program · continuing to M1 and M2 (2027–2029)</p>
+                        </article>
+                        <article class="cv-item">
+                            <p class="entry-when">August 2015 – May 2019</p>
+                            <h3>Colorado School of Mines, U.S.A.</h3>
+                            <p class="role">Bachelor of Science in Mechanical Engineering</p>
+                        </article>
+                    </section>
+
+                    <section class="panel" id="projects">
+                        <h2>Projects</h2>
+                        <ul class="facts">
+                            <li><i class="material-icons">check_circle</i><span>Designed and implemented a multi-country Human Resource Management System supporting 900+ employees across 6 national organizations.</span></li>
+                            <li><i class="material-icons">check_circle</i><span>Built payroll and government-taxation workflows aligned with local compliance requirements across multiple jurisdictions.</span></li>
+                            <li><i class="material-icons">check_circle</i><span>Developed academic records and analytics systems covering 19,000+ students across 93 schools.</span></li>
+                            <li><i class="material-icons">check_circle</i><span>Established live internal audit and data-validation systems to improve financial transparency and reporting accuracy.</span></li>
+                        </ul>
+                    </section>
+                </div>
+
+                <!-- Side column -->
+                <div class="col s12 m4">
+                    <section class="panel" id="skills">
+                        <h2>Skills</h2>
+                        <div class="skill-group">
+                            <h3>Program &amp; operations</h3>
+                            <div class="chip">Systems implementation</div>
+                            <div class="chip">Cross-cultural communication</div>
+                            <div class="chip">International program leadership</div>
+                        </div>
+                        <div class="skill-group">
+                            <h3>Technical</h3>
+                            <div class="chip">JavaScript</div>
+                            <div class="chip">Python</div>
+                            <div class="chip">Google Workspace automation</div>
+                        </div>
+                        <div class="skill-group">
+                            <h3>Engineering</h3>
+                            <div class="chip">Mechanical design</div>
+                            <div class="chip">SolidWorks</div>
+                            <div class="chip">AutoCAD</div>
+                            <div class="chip">MATLAB</div>
+                        </div>
+                    </section>
+
+                    <section class="panel" id="awards">
+                        <h2>Awards</h2>
+                        <article class="cv-item">
+                            <h3>Harvey Scholar</h3>
+                            <p>A full scholarship awarded to students who actively seek to pay it forward in both their personal and professional lives.</p>
+                        </article>
+                    </section>
+
+                    <section class="panel" id="languages">
+                        <h2>Languages</h2>
+                        <ul class="skill-list">
+                            <li><span>English</span><span class="level">Fluent</span></li>
+                            <li><span>Kiswahili</span><span class="level">Fluent</span></li>
+                            <li><span>French</span><span class="level">A2</span></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <p class="footer-name">Jonathan Vinton</p>
+                    <p>Engineer turned developer · Paris</p>
+                </div>
+                <div class="col s12 m6">
+                    <address>
+                        <a href="mailto:jonathan.developer26@gmail.com">jonathan.developer26@gmail.com</a><br>
+                        <a href="tel:+17135018206">+1 (713) 501 8206</a><br>
+                        20 Rue du Poitou, 94550 Chevilly-Larue
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">© 2026 Jonathan Vinton · Built with Materialize</div>
+        </div>
+    </footer>
+</body>
+</html>
