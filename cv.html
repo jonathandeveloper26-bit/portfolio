@@ -5,91 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV — Jonathan Vinton</title>
     <meta name="description" content="Curriculum vitae of Jonathan Vinton: Program & Systems Lead in international education, mechanical engineer, now software engineering student at Epitech Paris.">
-    <link rel="icon" href="./favicon.png" type="image/png">
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
+    <link rel=”canonical” href="https://jonathandeveloper26-bit.github.io/portfolio/cv_resume/index.html" />
+
+    <link rel="alternate" hreflang="en" href="https://jonathandeveloper26-bit.github.io/portfolio/cv_resume/index.html" />
+    <link rel="alternate" hreflang="fr" href="https://jonathandeveloper26-bit.github.io/portfolio/cv_resume/index.html/fr" />
+    <link rel="alternate" hreflang="sw" href="https://jonathandeveloper26-bit.github.io/portfolio/cv_resume/index.html/sw" />
+    <link rel="alternate" hreflang="x-default" href="https://jonathandeveloper26-bit.github.io/portfolio/cv_resume/index.html" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Shared Materialize copy from the site root, then this page's stylesheet (which imports ../style.css) -->
-    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection">
-    <link rel="stylesheet" href="./style.css">
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="./style_cv.css">
 
     <script src="../js/materialize.min.js" defer></script>
     <script src="./script.js" defer></script>
 </head>
 
-<body>
-    <header>
-        <div class="navbar-fixed">
-            <nav class="site-nav">
-                <div class="container">
-                    <div class="nav-wrapper">
-                        <a href="../index.html" class="brand-logo left hide-on-med-and-down"><img src="./my_profile.jpg" alt="" class="brand-photo">Jonathan Vinton</a>
-                        <a href="../index.html" class="brand-logo center hide-on-large-only">Jonathan Vinton</a>
-                        <a href="#" data-target="mobile-nav" class="sidenav-trigger" aria-label="Open menu"><i class="material-icons">menu</i></a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="#experience">Experience</a></li>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contact" class="modal-trigger">Contact</a></li>
-                        </ul>
-                    </div>
+<body id="pdf-content">
+    <header class="no-pdf">
+        <nav class="site-nav">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="./index.html" class="brand-logo left hide-on-med-and-down"><img src="./assets/my_profile.jpg" alt="" class="brand-photo">Jonathan Vinton</a>
+                    <a href="./index.html" class="brand-logo center hide-on-large-only">Jonathan Vinton</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger" aria-label="Open menu"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li class="active"><a href="./cv.html">CV</a></li>
+                        <li><a href="./projects.html">Projects</a></li>
+                        <li><a href="./contact_form.html">Contact</a></li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
         <ul class="sidenav" id="mobile-nav">
             <li class="sidenav-head">
                 <span class="sidenav-brand">Jonathan Vinton</span>
                 <a href="#!" class="sidenav-close" aria-label="Close menu"><i class="material-icons">close</i></a>
             </li>
-            <li><a href="../index.html">← Portfolio</a></li>
-            <li><a class="sidenav-close" href="#experience">Experience</a></li>
-            <li><a class="sidenav-close" href="#education">Education</a></li>
-            <li><a class="sidenav-close" href="#skills">Skills</a></li>
-            <li><a class="sidenav-close" href="#awards">Awards</a></li>
-            <li><a class="sidenav-close" href="#languages">Languages</a></li>
-            <li><a class="sidenav-close" href="#projects">Projects</a></li>
-            <li><a class="sidenav-close modal-trigger" href="#contact">Contact</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li class="active"><a href="./cv.html">CV</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact_form.html">Contact</a></li>
         </ul>
-
-        <!-- Contact modal -->
-        <div id="contact" class="modal">
-            <div class="modal-content">
-                <p class="eyebrow">Contact</p>
-                <h2>Let's talk</h2>
-                <ul class="facts">
-                    <li><i class="material-icons">email</i><a href="mailto:jonathan.developer26@gmail.com">jonathan.developer26@gmail.com</a></li>
-                    <li><i class="material-icons">phone</i><a href="tel:+17135018206">+1 (713) 501-8206</a></li>
-                    <li><i class="material-icons">place</i><span>Chevilly-Larue, France</span></li>
-                </ul>
-                <form action="https://formspree.io/f/mqpeqvyv" method="post">
-                    <div class="row">
-                        <div class="input-field col s12 m6">
-                            <input id="fullname" name="fullname" type="text" maxlength="60" required>
-                            <label for="fullname">Full name</label>
-                        </div>
-                        <div class="input-field col s12 m6">
-                            <input id="email" name="email" type="email" required>
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <input id="phone_from" name="phone_from" type="tel">
-                            <label for="phone_from">Phone (optional)</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <textarea id="user_message" name="user_message" class="materialize-textarea" required></textarea>
-                            <label for="user_message">Your message</label>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary waves-effect waves-light"><i class="material-icons left">send</i>Send message</button>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect btn-flat">Close</a>
-            </div>
-        </div>
     </header>
 
     <main>
@@ -98,15 +62,14 @@
                 <p class="eyebrow">Curriculum vitae</p>
                 <h1>Jonathan Vinton</h1>
                 <p class="lead">Program &amp; Systems Lead in international education and operations · mechanical engineer · now a software engineering student at Epitech Paris.</p>
-                <div class="hero-actions">
-                    <a href="./Jonathan_Vinton_Resume.pdf" download class="btn btn-primary waves-effect waves-light"><i class="material-icons left">download</i>Download PDF</a>
-                    <a href="#contact" class="btn btn-outline waves-effect modal-trigger"><i class="material-icons left">mail_outline</i>Contact</a>
+                <div class="hero-actions no-pdf">
+                    <button onclick="window.print()" class="btn btn-primary waves-effect waves-light"><i class="material-icons left">download</i>Download CV</button>
+                    <a href="./contact_form.html" class="btn btn-outline waves-effect modal-trigger"><i class="material-icons left">mail_outline</i>Contact</a>
                 </div>
-                <ul class="social">
+                <ul class="social no-pdf">
                     <li><a href="mailto:jonathan.developer26@gmail.com" aria-label="Email Jonathan"><i class="material-icons">email</i></a></li>
-                    <li><a href="tel:+17135018206" aria-label="Call Jonathan"><i class="material-icons">phone</i></a></li>
-                    <li><a href="https://github.com/jonathandeveloper26-bit" aria-label="GitHub profile"><img src="../github_mark.png" alt=""></a></li>
-                    <li><a href="https://linkedin.com/in/jonathan-v-0392b692" aria-label="LinkedIn profile"><img src="../linkedin-svgrepo-com.svg" alt=""></a></li>
+                    <li><a href="https://github.com/jonathandeveloper26-bit" aria-label="GitHub profile"><img src="./assets/github_mark.png" alt=""></a></li>
+                    <li><a href="https://linkedin.com/in/jonathan-v-0392b692" aria-label="LinkedIn profile"><img src="./assets/linkedin-svgrepo-com.svg" alt=""></a></li>
                 </ul>
             </div>
         </section>
@@ -208,7 +171,7 @@
         </div>
     </main>
 
-    <footer class="page-footer site-footer">
+    <footer class="page-footer site-footer no-pdf">
         <div class="container">
             <div class="row">
                 <div class="col s12 m6">
@@ -218,8 +181,7 @@
                 <div class="col s12 m6">
                     <address>
                         <a href="mailto:jonathan.developer26@gmail.com">jonathan.developer26@gmail.com</a><br>
-                        <a href="tel:+17135018206">+1 (713) 501 8206</a><br>
-                        20 Rue du Poitou, 94550 Chevilly-Larue
+                        94550 Chevilly-Larue, France
                     </address>
                 </div>
             </div>
