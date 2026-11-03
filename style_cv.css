@@ -1,6 +1,6 @@
 /* CV page — shares the site design system, then adds a few page rules.
    @import must be the first statement in the file. */
-@import url("../style.css");
+@import url("./style.css");
 
 /* Anchor targets stop short of the fixed 64px bar */
 #experience, #education, #skills, #awards, #languages, #projects {
@@ -40,10 +40,3 @@
   color: var(--gray);
   margin-bottom: .4rem;
 }
-
-/* Contact modal */
-.modal { border-radius: var(--radius); }
-.modal .modal-content h2 { font-size: 1.8rem; margin-bottom: .25rem; }
-.modal .modal-content .facts { margin: 0 0 1.5rem; }
-.modal .modal-footer { background: var(--paper); border-top: 1px solid var(--line); }
-.modal .modal-footer .btn-flat { color: var(--green); font-weight: 600; }

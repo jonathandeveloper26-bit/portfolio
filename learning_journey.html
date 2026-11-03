@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Vinton — Engineer turned developer</title>
+    <meta name="description" content="Portfolio of Jonathan Vinton, Epitech Paris student and former mechanical engineer building automation and apps that solve real operational problems.">
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
+    <link rel="canonical" href="https://jonathandeveloper26-bit.github.io/portfolio/" />
+
+    <link rel="alternate" hreflang="en" href="https://jonathandeveloper26-bit.github.io/portfolio/" />
+    <link rel="alternate" hreflang="fr" href="https://jonathandeveloper26-bit.github.io/portfolio/fr" />
+    <link rel="alternate" hreflang="sw" href="https://jonathandeveloper26-bit.github.io/portfolio/sw" />
+    <link rel="alternate" hreflang="x-default" href="https://jonathandeveloper26-bit.github.io/portfolio/" />
+
+
+    <!-- Fonts: Cormorant Garamond for headings, Inter for text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize, then our own stylesheet so it wins ties -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="site-nav">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="./index.html" class="brand-logo left hide-on-med-and-down"><img src="./assets/my_profile.jpg" alt="" class="brand-photo">Jonathan Vinton</a>
+                    <a href="./index.html" class="brand-logo center hide-on-large-only">Jonathan Vinton</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger" aria-label="Open menu"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./cv.html">CV</a></li>
+                        <li class = "active"><a href="./projects.html">Projects</a></li>
+                        <li><a href="./contact_form.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-nav">
+            <li class="sidenav-head">
+                <span class="sidenav-brand">Jonathan Vinton</span>
+                <a href="#!" class="sidenav-close" aria-label="Close menu"><i class="material-icons">close</i></a>
+            </li>
+            <li class="active"><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./cv.html">CV</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact_form.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <p class="eyebrow">Engineer · Developer · Paris</p>
+                <h1>Jonathan Vinton</h1>
+                <p class="lead">Engineer turned developer, building automation and apps that solve real operational problems.</p>
+                <p class="meta">Learning Journey</p>
+            </div>
+        </section>
+
+
+        <!-- Education -->
+        <section class="block" id="education">
+            <div class="container">
+                <h2 class="section-title">Epitech Paris (DIT)</h2>
+                <div class="timeline">
+                    <article class="entry">
+                        <p class="entry-when">September 21st - October 4th</p>
+                        <h3 class="entry-title">Python Pre-Pool</h3>
+                        <p class="entry-sub">Pre-Pool designed to introduce students to programmatic thinking</p>
+                        <dl class="entry-details">
+                            <dt>Skill Summary:</dt><dd>Over ten days of the Epitech Pre-Pool, this work builds foundational developer skills, starting with the shell, file and folder management, the Vim, Emacs and nano editors, and Git version control. It then progresses through core Python, covering variables, loops, conditionals, comparison and arithmetic operators, string handling, lists, functions, recursion, user input, and command-line arguments, with timed challenges comparing approaches such as built-in sort versus bubble and merge sort, or operator-based versus recursive power functions. The final days apply those fundamentals to a complete Hangman project, extending it with word categories, a guessing bot, a high-score leaderboard, a Pygame graphical interface, external libraries managed through requirements files, and packaging into a standalone executable with PyInstaller.</dd>
+                            <dt>Takeaways:</dt><dd>The biggest lesson is that fluency with everyday tools such as the terminal, Git, and a text editor matters as much as the code itself, since every later task depended on them. The Python challenges showed that measuring performance beats guessing, as the timed comparisons made clear how much algorithm choice and built-in functions affect speed. Finally, the Hangman project demonstrated that a small program grows into a real application through incremental additions like file-based data, a bot opponent, a graphical interface, and packaging for distribution.</dd>
+                        </dl>
+                    </article>
+                    <article class="entry">
+                        <p class="entry-when">October 5th - October 18th</p>
+                        <h3 class="entry-title">Web Development Pool</h3>
+                        <p class="entry-sub">First Pool Introducing Students to Bash, HTML, CSS, JS, AJAX, and PHP</p>
+                        <dl class="entry-details">
+                            <dt>Skill Summary:</dt><dd>Over ten days of the Epitech Web Bootcamp, this work moves from Bash scripting for file creation, searching, batch replacement, backups, and directory automation into the core front-end stack of semantic HTML, CSS styling, and the Materialize framework. It then covers JavaScript in two settings: Node modules with tester files for functions like range and array utilities, and browser scripting with DOM selection, event listeners, drag events, and a keyboard-driven sprite animation on the multi-page digital resume. The final days add the back end with PHP functions, query-string routing and dynamic page bodies, SQLite through PDO with prepared statements, SQL queries for selecting, filtering, inserting, updating, and deleting, and AJAX form validation that returns JSON from PHP to a JavaScript front end, applied again in a hike-logging practice project.</dd>
+                            <dt>Takeaways:</dt><dd>The clearest lesson is how the full request cycle fits together: a form in the browser, JavaScript sending the request, PHP validating input and querying a database, and JSON coming back to update the page without a reload. Validation on the server side, with prepared statements and explicit error responses, proved just as important as the visible interface. Finally, the resume project and the extra practice folder show that reusing a framework and revisiting earlier work with new tools is where the individual skills turned into something usable. Much of what I learned was used in making this portfolio!</dd>
+                        </dl>
+                    </article>
+                    <article class="entry">
+                        <p class="entry-when">October 19th - November 1st</p>
+                        <h3 class="entry-title">Job Board</h3>
+                        <p class="entry-sub">Full Project: Building a Job Board</p>
+                        <dl class="entry-details">
+                            <dt>Skill Summary:</dt><dd></dd>
+                            <dt>Takeaways:</dt><dd></dd>
+                        </dl>
+                    </article>
+                    <article class="entry">
+                        <p class="entry-when">November 2nd - November 15th</p>
+                        <h3 class="entry-title">Java Pool</h3>
+                        <p class="entry-sub">Second Pool Introducing Students to Java</p>
+                        <dl class="entry-details">
+                            <dt>Skill Summary:</dt><dd></dd>
+                            <dt>Takeaways:</dt><dd></dd>
+                        </dl>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="page-footer site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <p class="footer-name">Jonathan Vinton</p>
+                    <p>Engineer turned developer · Paris</p>
+                </div>
+                <div class="col s12 m6">
+                    <address>
+                        <a href="mailto:jonathan.developer26@gmail.com">jonathan.developer26@gmail.com</a><br>
+                        94550 Chevilly-Larue, France
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">© 2026 Jonathan Vinton · Built with Materialize</div>
+        </div>
+    </footer>
+
+    <!-- JavaScript at end of body for optimized loading -->
+    <script src="js/materialize.min.js"></script>
+    <script>M.AutoInit();</script>
+</body>
+</html>
