@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jonathanvinton.com/sitemap.xml
