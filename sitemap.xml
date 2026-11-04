@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://jonathanvinton.com/</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://jonathanvinton.com/index.html</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://jonathanvinton.com/about.html</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://jonathanvinton.com/cv.html</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://jonathanvinton.com/projects.html</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://jonathanvinton.com/contact_form.html</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://jonathanvinton.com/project_1_VSI.html</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://jonathanvinton.com/project_2_VSI.html</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://jonathanvinton.com/project_3_PSNS.html</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://jonathanvinton.com/learning_journey.html</loc>
+       <lastmod>2026-11-04T14:03:44+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+</urlset>
